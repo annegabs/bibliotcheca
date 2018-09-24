@@ -1,0 +1,130 @@
+html, body{
+	height: 100%;
+}
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,900');
+
+body{
+	background-image: url("../imagens/background.jpg");
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    background-color: #358efc;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #70afff;
+}
+header h1{
+	text-align: left;
+	height: 3.5em;
+}
+header nav{
+	background-color: #3373c4;
+	height: 2.5em;
+	text-align: center;
+}
+header h1 a{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+header nav li{
+	margin-right: 3em;
+	display: inline;
+}
+header nav input[type=text] {
+	margin-top: 0.45em;
+	margin-left: -1.5em;
+	border-radius: 10px;
+	width:15%;
+    border: none;
+	background-color: rgb(225,218,235);
+}
+header nav input[type=text]:focus {
+	background-color: white;
+}
+header nav input[type=submit] {
+	margin-top: 0.45em;
+	margin-left:0.25em;
+    background:url(../imagens/lupa.png);
+	background-repeat: no-repeat;
+	background-size: 18px;
+	background-color: rgb(225,218,235);
+	width: 1em;
+	height: 1em;
+	border: 0;
+}
+header nav li a{
+	color: white;
+	text-decoration: none;
+}
+header nav li a:hover{
+	color: rgb(225,218,235);
+	text-decoration: none;
+}
+main {
+	margin: 0 auto;
+	max-width: 74.8em; 
+}
+main figure{
+	display: inline-block;
+}
+main div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	margin-bottom: 3em;
+	background-color: #FCFF94;
+	width: 35%; 
+	height: 90%;
+}
+main div p{
+	text-align: center;
+	width: 70%;
+	margin: 8em auto;
+    font-family: 'Exo', sans-serif;
+}
+main div img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+main div.lateral{
+    display: inline-block;
+    text-align: center;
+    float:right;
+}
+.avatar {
+	width: 13em;
+	height: 13em;
+	float: left;
+	border-radius: 50%;
+	margin-right: 5%;
+}
+
+.desc {
+	margin-top: 3.5em;
+}
+ol.avatares{
+	list-style: none;
+	padding: 15px;
+}
+
+ol.avatares li{
+	padding: 20px;
+	margin-bottom: 6em;
+}
